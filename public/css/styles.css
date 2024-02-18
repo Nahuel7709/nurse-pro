@@ -1,0 +1,28 @@
+.container-fluid {
+    background-color: #2d9596;
+    width: 100%;
+}
+
+.mainlogo {
+    margin-left: 8vh;
+}
+
+#register-color {
+    color: #2d9596;
+    font-family: "Questrial" ;
+}
+
+#nav-text-color {
+    color: white;
+    font-size: 2vh;
+    font-family: "Questrial" 
+}
+#home-text-color {
+    color: #265073;
+    font-size: 2vh;
+    font-family: "Questrial" 
+}
+
+#login-color {
+    font-family: "Questrial" 
+}
