@@ -1,3 +1,4 @@
+
 .container-fluid {
     background-color: #2d9596;
     width: 100%;
@@ -25,4 +26,17 @@
 
 #login-color {
     font-family: "Questrial" 
+}
+
+#title-presentation{
+    font-family: "Questrial";
+    color: #2d9596;
+    font-size: 6vh;
+}
+
+#text-presentation{
+    font-family: "Questrial";
+    color: #265073;
+    font-size: 3vh;
+    text-align: left;
 }
