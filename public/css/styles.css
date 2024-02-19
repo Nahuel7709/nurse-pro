@@ -94,3 +94,73 @@
     font-size: 3vh;
     text-align: left;
 }
+
+.menu-logo {
+    height: 40px;
+}
+.logo-menu {
+    height: 11vh;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+
+/* Acá van los mediaQuerys */
+
+@media (min-width: 1601px) {
+    .logo-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .list-index {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: auto ;
+        margin-top: 1vh;
+
+    }
+    .logo-menu {
+        display: none;
+    }
+    }
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    .list-index {
+        display: none;
+       
+    }
+
+    }
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .list-index {
+        display: none;
+    }
+    .buttons-box {
+        display: none;
+    }
+    .logo-menu {
+        margin-right: 5vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .list-index {
+        display: none;
+    }
+    .buttons-box {
+        display: none;
+    }
+    .logo-menu {
+        margin-right: 5vh;
+    }
+}
+
+
+
+
+
+
