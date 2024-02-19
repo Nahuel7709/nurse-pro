@@ -115,5 +115,41 @@
 }
 
 
+#ha-card{
+    background-image: url(../images/hospitalalemanedificio.jpg);
+    background-size: cover;
+    transition: scale 200ms;
+}
 
-    
+#hi-card{
+    background-image: url(../images/italianoedificio.jpg);
+    background-size: cover;
+    transition: scale 200ms;
+}
+
+
+#cb-card{
+    background-image: url(../images/bazterricaedificio2.jpg);
+    background-size: cover;
+    transition: scale 200ms;
+}
+
+#ha-card:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
+    scale: 102%;
+}
+
+#hi-card:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
+    scale: 102%;
+}
+
+#cb-card:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    cursor: pointer;
+    scale: 102%;
+}
+
+
