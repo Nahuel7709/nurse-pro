@@ -31,9 +31,10 @@
 .nav-text-box {
     color: white;
     margin: 10px;
+    text-decoration: none;
 }
 .nav-text-box:hover {
-    color: #265073;
+    color: #c1c8cf;
 }
 
 .buttons-box {
