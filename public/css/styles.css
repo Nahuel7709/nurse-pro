@@ -32,6 +32,9 @@
     color: white;
     margin: 10px;
 }
+.nav-text-box:hover {
+    color: #265073;
+}
 
 .buttons-box {
     display: flex;
@@ -55,11 +58,14 @@
     margin: 10px;
 
 }
+.btn-login:hover {
+    background-color: #6cbbbd;
+}
 
 .btn-register {
     color:#265073;
     background-color: white;
-    border: #265073 1px solid;
+    border: white 1px solid;
     width: 13vh;
     height: 4vh;
     border-radius: 5%;
@@ -67,6 +73,9 @@
     font-size: 2vh;
     margin-right: 25px;
 
+}
+.btn-register:hover {
+    background-color: #c5f4f5;
 }
 
 
